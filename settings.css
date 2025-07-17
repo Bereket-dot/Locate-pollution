@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+.back {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+form {
+  margin-top: 2rem;
+}
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}

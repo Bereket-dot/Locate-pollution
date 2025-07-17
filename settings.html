@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/settings.css" />
+</head>
+<body>
+  <header>
+    <h1>Settings</h1>
+    <a class="back" href="index.html">&larr; Home</a>
+  </header>
+  <main>
+    <form id="settings-form">
+      <fieldset>
+        <legend>Notifications</legend>
+        <label><input type="checkbox" name="weekly-summary" checked /> Weekly cleanup summary</label>
+        <label><input type="checkbox" name="nearby-events" /> Alerts for nearby events</label>
+        <label><input type="checkbox" name="tips" /> Weekly recycling tips</label>
+      </fieldset>
+      <button type="submit">Save Settings</button>
+    </form>
+  </main>
+  <script src="js/settings.js"></script>
+</body>
+</html>

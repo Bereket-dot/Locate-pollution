@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleanup Map</title>
+  <link rel="stylesheet" href="css/cleanup.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Cleanup Map</h1>
+    <a class="back" href="index.html">&larr; Home</a>
+  </header>
+  <div id="map"></div>
+  <button id="report-btn">Report Pollution</button>
+
+  <div id="report-modal" class="modal hidden">
+    <form id="report-form">
+      <h2>Report Plastic Sighting</h2>
+      <label>
+        Photo URL:
+        <input type="url" name="photo" required />
+      </label>
+      <label>
+        Notes:
+        <textarea name="notes" rows="3"></textarea>
+      </label>
+      <button type="submit">Submit</button>
+      <button type="button" id="cancel-report">Cancel</button>
+    </form>
+  </div>
+
+  <script src="js/cleanup.js"></script>
+</body>
+</html>
